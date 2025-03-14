@@ -3,7 +3,6 @@
 import { useEffect, useRef } from "react"
 
 export function Spinning() {
-  // You may want to download this SVG and host it locally
   const svgUrl = "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/frog-spin-BBGSajW7wnqbAUVUMbp9wZZ0EpvE6a.svg"
   const containerRef = useRef<HTMLDivElement>(null)
 
